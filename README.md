@@ -100,7 +100,7 @@ were rejected.
 Requires Python 3.10+ and nothing else.
 
 ```bash
-git clone https://github.com/matrixneoaiagent/marrow-prototype.git
+git clone https://github.com/matrixneoaiagent/marrow-input-auth.git
 cd marrow-prototype
 python3 -m marrow demo
 ```
