@@ -1,0 +1,941 @@
+{
+  "schema": "marrow.fake-data/v1",
+  "generator_seed": 20261125,
+  "capture": "synthetic",
+  "styles": [
+    "mouse_keyboard",
+    "assistive_dictation"
+  ],
+  "style_descriptions": {
+    "mouse_keyboard": "standard mouse + physical keyboard; typed text and backspace corrections",
+    "assistive_dictation": "slow head/eye pointer + dictation chunks, with on-screen-keyboard corrections"
+  },
+  "sessions": {
+    "owner_rested": 20,
+    "owner_tired": 6,
+    "stranger": 10,
+    "mimic": 10
+  },
+  "files": [
+    {
+      "path": "mouse_keyboard/owner_rested/session-00.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_rested",
+      "session": 0,
+      "split": "train",
+      "label": "owner",
+      "events": 753,
+      "sha256": "ce461808346cee65ee55579226dbd6892750b32fe9a784490e3db4a6a43a2ba2"
+    },
+    {
+      "path": "mouse_keyboard/owner_rested/session-01.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_rested",
+      "session": 1,
+      "split": "train",
+      "label": "owner",
+      "events": 386,
+      "sha256": "6849951e0c7b85a719d87303999517e9d7c9bfb3469fab4f92f67a4f64dc5c48"
+    },
+    {
+      "path": "mouse_keyboard/owner_rested/session-02.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_rested",
+      "session": 2,
+      "split": "train",
+      "label": "owner",
+      "events": 763,
+      "sha256": "eb2a7935ad90aeb270aa74e695a598ef028ded5ad81f79836b49447247cca127"
+    },
+    {
+      "path": "mouse_keyboard/owner_rested/session-03.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_rested",
+      "session": 3,
+      "split": "train",
+      "label": "owner",
+      "events": 896,
+      "sha256": "9042f45e602b745f83992fd7a37ce12eeaa4b3558daebdf78162776b99355f12"
+    },
+    {
+      "path": "mouse_keyboard/owner_rested/session-04.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_rested",
+      "session": 4,
+      "split": "train",
+      "label": "owner",
+      "events": 590,
+      "sha256": "4fac93463bdd5caa3078a23c0b6a5a636116c67524c1fec14e64861313e870b3"
+    },
+    {
+      "path": "mouse_keyboard/owner_rested/session-05.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_rested",
+      "session": 5,
+      "split": "train",
+      "label": "owner",
+      "events": 905,
+      "sha256": "051ceef006a3dce2e4e73b1e2edb0ca0a56fac9e779d1f87ec82224bdbec2117"
+    },
+    {
+      "path": "mouse_keyboard/owner_rested/session-06.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_rested",
+      "session": 6,
+      "split": "train",
+      "label": "owner",
+      "events": 684,
+      "sha256": "8ef3d5f3a912c0a5b1b32bcfb40c45be8850170294954230ace9a15ffead5e06"
+    },
+    {
+      "path": "mouse_keyboard/owner_rested/session-07.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_rested",
+      "session": 7,
+      "split": "train",
+      "label": "owner",
+      "events": 880,
+      "sha256": "c6f31a0a80f7d8b64660e9555199b6decafd57eb680ad96b18cbdea7652b0d75"
+    },
+    {
+      "path": "mouse_keyboard/owner_rested/session-08.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_rested",
+      "session": 8,
+      "split": "train",
+      "label": "owner",
+      "events": 734,
+      "sha256": "b3d27636972ffe06a03c3754e1b8dfbb9b2d9797e444161beae3d26980a7d829"
+    },
+    {
+      "path": "mouse_keyboard/owner_rested/session-09.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_rested",
+      "session": 9,
+      "split": "train",
+      "label": "owner",
+      "events": 676,
+      "sha256": "069c29daee2ffb536093dbf2e69c85a69ae3b54d8c43e769ab0b59eddcf7c5bd"
+    },
+    {
+      "path": "mouse_keyboard/owner_rested/session-10.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_rested",
+      "session": 10,
+      "split": "train",
+      "label": "owner",
+      "events": 614,
+      "sha256": "0c1c9fac04ca1fe0223178aa9517a8d5d0aa83cefae177686fe75157a0657621"
+    },
+    {
+      "path": "mouse_keyboard/owner_rested/session-11.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_rested",
+      "session": 11,
+      "split": "train",
+      "label": "owner",
+      "events": 803,
+      "sha256": "11b050b0c5690ef8b1ae9f14d215edfb57df595be961644f0e32f75471a82462"
+    },
+    {
+      "path": "mouse_keyboard/owner_rested/session-12.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_rested",
+      "session": 12,
+      "split": "train",
+      "label": "owner",
+      "events": 694,
+      "sha256": "6e3af7561bd2c6c77d2545991d34b11e072ac1e1f6dd3eae5b81550a33ced9a1"
+    },
+    {
+      "path": "mouse_keyboard/owner_rested/session-13.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_rested",
+      "session": 13,
+      "split": "train",
+      "label": "owner",
+      "events": 800,
+      "sha256": "967d60166122aea0dd891557539e9ab1c9d197bbe1786a5fa4bd510936491c27"
+    },
+    {
+      "path": "mouse_keyboard/owner_rested/session-14.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_rested",
+      "session": 14,
+      "split": "train",
+      "label": "owner",
+      "events": 670,
+      "sha256": "e9e2761ac3818a7a3a7159e88a319241f45ea1e89133e66890257af0e327c504"
+    },
+    {
+      "path": "mouse_keyboard/owner_rested/session-15.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_rested",
+      "session": 15,
+      "split": "calibration",
+      "label": "owner",
+      "events": 954,
+      "sha256": "65b757297947dc4ebc24fdaf9fd7064c8510170e6c125b2b77e77a0c0309f3eb"
+    },
+    {
+      "path": "mouse_keyboard/owner_rested/session-16.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_rested",
+      "session": 16,
+      "split": "calibration",
+      "label": "owner",
+      "events": 452,
+      "sha256": "a8882c1db469700c014b767a908f648e6e8c454e3407d999603f130763b98906"
+    },
+    {
+      "path": "mouse_keyboard/owner_rested/session-17.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_rested",
+      "session": 17,
+      "split": "calibration",
+      "label": "owner",
+      "events": 591,
+      "sha256": "4abdf8b01fcec7fb6e92ef761f1fe7671e43261b0e0a57ea1dafb4aba8ecb3a4"
+    },
+    {
+      "path": "mouse_keyboard/owner_rested/session-18.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_rested",
+      "session": 18,
+      "split": "calibration",
+      "label": "owner",
+      "events": 804,
+      "sha256": "9b2bbc511c5bb49d0c118cafcb89c2347347d3e04e26112f3dcbb4931564172e"
+    },
+    {
+      "path": "mouse_keyboard/owner_rested/session-19.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_rested",
+      "session": 19,
+      "split": "calibration",
+      "label": "owner",
+      "events": 623,
+      "sha256": "00451552ce08f0f047353d5e747c5f9588fcb7dd2fc2202b63341bcb0c69dbfb"
+    },
+    {
+      "path": "mouse_keyboard/owner_tired/session-00.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_tired",
+      "session": 0,
+      "split": "test",
+      "label": "owner",
+      "events": 705,
+      "sha256": "e4b8e603510ee34d70a4a2ee31f0f74351e79dc448820bd21fd4bd8107585715"
+    },
+    {
+      "path": "mouse_keyboard/owner_tired/session-01.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_tired",
+      "session": 1,
+      "split": "test",
+      "label": "owner",
+      "events": 614,
+      "sha256": "309935adc9f273a3bf3dc73ef83d92f1af32e34d80fd449b5381ddfcd6981178"
+    },
+    {
+      "path": "mouse_keyboard/owner_tired/session-02.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_tired",
+      "session": 2,
+      "split": "test",
+      "label": "owner",
+      "events": 789,
+      "sha256": "d1525e64cb20421c9be064131c62f1895f2f44c861578e811d43f8a78ac0f5fd"
+    },
+    {
+      "path": "mouse_keyboard/owner_tired/session-03.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_tired",
+      "session": 3,
+      "split": "test",
+      "label": "owner",
+      "events": 746,
+      "sha256": "da2eaea7bc9004947bca980e1db973bd45fd7e74778845b7b230c890e18bd929"
+    },
+    {
+      "path": "mouse_keyboard/owner_tired/session-04.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_tired",
+      "session": 4,
+      "split": "test",
+      "label": "owner",
+      "events": 1004,
+      "sha256": "65cfe52ed0181804bd9b0c8c704c15c2e25bf86d85a04fcf3981a82d62f70e6f"
+    },
+    {
+      "path": "mouse_keyboard/owner_tired/session-05.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "owner_tired",
+      "session": 5,
+      "split": "test",
+      "label": "owner",
+      "events": 731,
+      "sha256": "fe7a2f391ee19832016e7d86b5419c599b457c627e6187804ede5e3e315194f1"
+    },
+    {
+      "path": "mouse_keyboard/stranger/session-00.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "stranger",
+      "session": 0,
+      "split": "test",
+      "label": "impostor_stranger",
+      "events": 663,
+      "sha256": "80c92c420fc7d6522c479f9cd4e1763b3a47ba9bec1d45312dcdd08b130e7d4a"
+    },
+    {
+      "path": "mouse_keyboard/stranger/session-01.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "stranger",
+      "session": 1,
+      "split": "test",
+      "label": "impostor_stranger",
+      "events": 829,
+      "sha256": "0a0fce4f1ab8062a60991f03b0fe49db2d8e9a3020773b3c292b8fea8866de5f"
+    },
+    {
+      "path": "mouse_keyboard/stranger/session-02.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "stranger",
+      "session": 2,
+      "split": "test",
+      "label": "impostor_stranger",
+      "events": 634,
+      "sha256": "9952a3535d442c694235ffedadef74563aa7d8d5efcda245fc47fee119023c2f"
+    },
+    {
+      "path": "mouse_keyboard/stranger/session-03.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "stranger",
+      "session": 3,
+      "split": "test",
+      "label": "impostor_stranger",
+      "events": 765,
+      "sha256": "5db097f48adcc57ee18f61d9afef37333a8d9c94866b511501d31444de29a5e2"
+    },
+    {
+      "path": "mouse_keyboard/stranger/session-04.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "stranger",
+      "session": 4,
+      "split": "test",
+      "label": "impostor_stranger",
+      "events": 701,
+      "sha256": "4f54b546ffad2cc4ada2f739f804fcdc3c0bfd9503fa550a2f09321b3616de8d"
+    },
+    {
+      "path": "mouse_keyboard/stranger/session-05.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "stranger",
+      "session": 5,
+      "split": "test",
+      "label": "impostor_stranger",
+      "events": 574,
+      "sha256": "4543becd8844e37a8933b5bc6d1af6026ffab4058b6cb8706db41b9661c44068"
+    },
+    {
+      "path": "mouse_keyboard/stranger/session-06.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "stranger",
+      "session": 6,
+      "split": "test",
+      "label": "impostor_stranger",
+      "events": 568,
+      "sha256": "825ec57920a300b9c96e9e12ebe7cd08242219915d700df8e3f094cc330ddfb0"
+    },
+    {
+      "path": "mouse_keyboard/stranger/session-07.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "stranger",
+      "session": 7,
+      "split": "test",
+      "label": "impostor_stranger",
+      "events": 582,
+      "sha256": "d8b96a11648537cf8626221efc08cf0ea335b666f1a19f98b86170f0c16b6b75"
+    },
+    {
+      "path": "mouse_keyboard/stranger/session-08.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "stranger",
+      "session": 8,
+      "split": "test",
+      "label": "impostor_stranger",
+      "events": 602,
+      "sha256": "5464e4f12c078fab56e414cde7c572f85f7aba9a162fd4b5e74f99f43eab55d5"
+    },
+    {
+      "path": "mouse_keyboard/stranger/session-09.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "stranger",
+      "session": 9,
+      "split": "test",
+      "label": "impostor_stranger",
+      "events": 676,
+      "sha256": "e828b653e9d88785f2400f00dddd98b8fcf573ddfcd23fd566710b677ddf4304"
+    },
+    {
+      "path": "mouse_keyboard/mimic/session-00.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "mimic",
+      "session": 0,
+      "split": "test",
+      "label": "impostor_mimic",
+      "events": 874,
+      "sha256": "579eee29cc1b33a6dbb650d813483f4a8c8af0864f28e0315fbe549fc499e5f0"
+    },
+    {
+      "path": "mouse_keyboard/mimic/session-01.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "mimic",
+      "session": 1,
+      "split": "test",
+      "label": "impostor_mimic",
+      "events": 790,
+      "sha256": "47302f4a747487fbe3ad4c2e1fe8704465cca8acbc351022004e68c4b5a3b8d3"
+    },
+    {
+      "path": "mouse_keyboard/mimic/session-02.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "mimic",
+      "session": 2,
+      "split": "test",
+      "label": "impostor_mimic",
+      "events": 753,
+      "sha256": "797653fdee912d7ba47b32b5dc0da866041464ce77c864bc076b9fd8b7fe2948"
+    },
+    {
+      "path": "mouse_keyboard/mimic/session-03.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "mimic",
+      "session": 3,
+      "split": "test",
+      "label": "impostor_mimic",
+      "events": 827,
+      "sha256": "afcd33a17031dd3f0b3cf0f50b607f6dc1f0e7234df3ffdc4b61f98c32f39780"
+    },
+    {
+      "path": "mouse_keyboard/mimic/session-04.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "mimic",
+      "session": 4,
+      "split": "test",
+      "label": "impostor_mimic",
+      "events": 851,
+      "sha256": "4097a1f21aa2976e8c201cc7716dbb0d1619c3c8456205efe8dfe49e2df3a200"
+    },
+    {
+      "path": "mouse_keyboard/mimic/session-05.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "mimic",
+      "session": 5,
+      "split": "test",
+      "label": "impostor_mimic",
+      "events": 744,
+      "sha256": "7bd5e674465b93a3374912df628724aa62d09cab7270417f9398830372e53c25"
+    },
+    {
+      "path": "mouse_keyboard/mimic/session-06.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "mimic",
+      "session": 6,
+      "split": "test",
+      "label": "impostor_mimic",
+      "events": 811,
+      "sha256": "b7da0d8470b4686cc9c28ab519173598755f478f4e75762859a61adf9ee9b086"
+    },
+    {
+      "path": "mouse_keyboard/mimic/session-07.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "mimic",
+      "session": 7,
+      "split": "test",
+      "label": "impostor_mimic",
+      "events": 794,
+      "sha256": "e08a6361260b3a97850731f2cf73c7fe1270dacfac5266f74bdf9dc7c11a733d"
+    },
+    {
+      "path": "mouse_keyboard/mimic/session-08.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "mimic",
+      "session": 8,
+      "split": "test",
+      "label": "impostor_mimic",
+      "events": 748,
+      "sha256": "88f3b59882198728a25e92bebbd4f195890b717cd6154f892881ba188985521c"
+    },
+    {
+      "path": "mouse_keyboard/mimic/session-09.jsonl",
+      "style": "mouse_keyboard",
+      "persona": "mimic",
+      "session": 9,
+      "split": "test",
+      "label": "impostor_mimic",
+      "events": 944,
+      "sha256": "2b112ab40f74ba82f4d8b289bf98bed8abe13613651d819d185f1046b362aa26"
+    },
+    {
+      "path": "assistive_dictation/owner_rested/session-00.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_rested",
+      "session": 0,
+      "split": "train",
+      "label": "owner",
+      "events": 902,
+      "sha256": "840e84af4c9e1d5edcec1d45aff4a65304ff888d043b44217ffcf48fa5435916"
+    },
+    {
+      "path": "assistive_dictation/owner_rested/session-01.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_rested",
+      "session": 1,
+      "split": "train",
+      "label": "owner",
+      "events": 1568,
+      "sha256": "ba8545be3985c9df27ddc940a0f10ea495e99073c2ccce3ab4ba930f4a9433ef"
+    },
+    {
+      "path": "assistive_dictation/owner_rested/session-02.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_rested",
+      "session": 2,
+      "split": "train",
+      "label": "owner",
+      "events": 1075,
+      "sha256": "151838800b9e239433a80c5d0589d6f78679721c142d6ce7d8d9aaa89cbd27e4"
+    },
+    {
+      "path": "assistive_dictation/owner_rested/session-03.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_rested",
+      "session": 3,
+      "split": "train",
+      "label": "owner",
+      "events": 1363,
+      "sha256": "e068f4d85963779a1ed239648c458d9a67309ce5a877c16530f958fd7385b1c8"
+    },
+    {
+      "path": "assistive_dictation/owner_rested/session-04.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_rested",
+      "session": 4,
+      "split": "train",
+      "label": "owner",
+      "events": 1008,
+      "sha256": "ee745475e831564d56181e12be72e079f23abd0f1bbfa33108c892a257cdb674"
+    },
+    {
+      "path": "assistive_dictation/owner_rested/session-05.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_rested",
+      "session": 5,
+      "split": "train",
+      "label": "owner",
+      "events": 927,
+      "sha256": "ce9fcfa19bca0b72d61c20cc4276e0633e094416130b2d2c213616d369c6827c"
+    },
+    {
+      "path": "assistive_dictation/owner_rested/session-06.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_rested",
+      "session": 6,
+      "split": "train",
+      "label": "owner",
+      "events": 1426,
+      "sha256": "dd0423c706fb1028198d1c65c28da3c3e529e12265fa9530578ea6a563170ae6"
+    },
+    {
+      "path": "assistive_dictation/owner_rested/session-07.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_rested",
+      "session": 7,
+      "split": "train",
+      "label": "owner",
+      "events": 494,
+      "sha256": "1171303db4a1adf44440948c41f58fba1442bf2e43c54dd725309e9179f8c53f"
+    },
+    {
+      "path": "assistive_dictation/owner_rested/session-08.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_rested",
+      "session": 8,
+      "split": "train",
+      "label": "owner",
+      "events": 876,
+      "sha256": "53cd70cc7d3476c4ff09f05b5be947a4595b718ee3ffb60b572c22f452aa6acd"
+    },
+    {
+      "path": "assistive_dictation/owner_rested/session-09.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_rested",
+      "session": 9,
+      "split": "train",
+      "label": "owner",
+      "events": 1377,
+      "sha256": "a567260f76afd792ed4eb78a7e23ad31b093ed1a06dc819b480a06e1f120da41"
+    },
+    {
+      "path": "assistive_dictation/owner_rested/session-10.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_rested",
+      "session": 10,
+      "split": "train",
+      "label": "owner",
+      "events": 1284,
+      "sha256": "4907a88bdc38fed5cd6f7476f70592d187b7702c8760236958c42d9b25fedfc5"
+    },
+    {
+      "path": "assistive_dictation/owner_rested/session-11.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_rested",
+      "session": 11,
+      "split": "train",
+      "label": "owner",
+      "events": 591,
+      "sha256": "5321ee89146ecfb30d9e1716f3573d104ec57ff3a9cf440df1a7524e3074e2e7"
+    },
+    {
+      "path": "assistive_dictation/owner_rested/session-12.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_rested",
+      "session": 12,
+      "split": "train",
+      "label": "owner",
+      "events": 671,
+      "sha256": "072f0b30a97362c308bb89a30b20e0176cc726c72786ad5265c5ce80669fb1c6"
+    },
+    {
+      "path": "assistive_dictation/owner_rested/session-13.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_rested",
+      "session": 13,
+      "split": "train",
+      "label": "owner",
+      "events": 1232,
+      "sha256": "b3e457092a754564d2fd2bc95e1311b1838c26b20c0560d76baab0a772b60350"
+    },
+    {
+      "path": "assistive_dictation/owner_rested/session-14.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_rested",
+      "session": 14,
+      "split": "train",
+      "label": "owner",
+      "events": 1204,
+      "sha256": "5c9a35697aa5d785695ef299d3712d935c6eabf69ee13362cc611cc7cb824483"
+    },
+    {
+      "path": "assistive_dictation/owner_rested/session-15.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_rested",
+      "session": 15,
+      "split": "calibration",
+      "label": "owner",
+      "events": 1033,
+      "sha256": "d75e051642e026017feb97b661fe5b35b79f09c3775384f889c8833f284de391"
+    },
+    {
+      "path": "assistive_dictation/owner_rested/session-16.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_rested",
+      "session": 16,
+      "split": "calibration",
+      "label": "owner",
+      "events": 540,
+      "sha256": "8f38c86ec066f0481bb328691a70504f30f0a40dd429ce2fe05e0a20c41994ac"
+    },
+    {
+      "path": "assistive_dictation/owner_rested/session-17.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_rested",
+      "session": 17,
+      "split": "calibration",
+      "label": "owner",
+      "events": 670,
+      "sha256": "f13ff1ce3b3dd2d1c2f82ac749dfab80b7a5c0616610edc7e6cf20f9afd5ab38"
+    },
+    {
+      "path": "assistive_dictation/owner_rested/session-18.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_rested",
+      "session": 18,
+      "split": "calibration",
+      "label": "owner",
+      "events": 360,
+      "sha256": "3045cce686188903965ef1ef02e3c06c4e67e205eab76c16270fdbb269713e44"
+    },
+    {
+      "path": "assistive_dictation/owner_rested/session-19.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_rested",
+      "session": 19,
+      "split": "calibration",
+      "label": "owner",
+      "events": 616,
+      "sha256": "2c7594cf8bb278d695c54f861cbed8efe9f767072b36cde78f3a3e8e8f7a6c1a"
+    },
+    {
+      "path": "assistive_dictation/owner_tired/session-00.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_tired",
+      "session": 0,
+      "split": "test",
+      "label": "owner",
+      "events": 842,
+      "sha256": "2612c97056c92f1c57463ffb4ccb739e46e141aac83eaf2742b3da856bd6a4f3"
+    },
+    {
+      "path": "assistive_dictation/owner_tired/session-01.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_tired",
+      "session": 1,
+      "split": "test",
+      "label": "owner",
+      "events": 497,
+      "sha256": "8c12a38eee53a62d71e05dee5b9dd89c939a58aaaf43e24073696bf824bd14ff"
+    },
+    {
+      "path": "assistive_dictation/owner_tired/session-02.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_tired",
+      "session": 2,
+      "split": "test",
+      "label": "owner",
+      "events": 1184,
+      "sha256": "e268fe37b65e27f7363004db1c9c74540dc5fc62fb485014675909988f402356"
+    },
+    {
+      "path": "assistive_dictation/owner_tired/session-03.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_tired",
+      "session": 3,
+      "split": "test",
+      "label": "owner",
+      "events": 743,
+      "sha256": "f59e77a6f8a12f5eea46a288d15346f08d2a4db45aeeed225592dd95433b79f8"
+    },
+    {
+      "path": "assistive_dictation/owner_tired/session-04.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_tired",
+      "session": 4,
+      "split": "test",
+      "label": "owner",
+      "events": 564,
+      "sha256": "362ca2b711352120f4e79893904e65d301fd9c4da9d0dfb4a9d0cc817b246d4f"
+    },
+    {
+      "path": "assistive_dictation/owner_tired/session-05.jsonl",
+      "style": "assistive_dictation",
+      "persona": "owner_tired",
+      "session": 5,
+      "split": "test",
+      "label": "owner",
+      "events": 951,
+      "sha256": "4eb7d867102b21e81064d959ebde5000da7517331def2bce3f0b4353a80cc902"
+    },
+    {
+      "path": "assistive_dictation/stranger/session-00.jsonl",
+      "style": "assistive_dictation",
+      "persona": "stranger",
+      "session": 0,
+      "split": "test",
+      "label": "impostor_stranger",
+      "events": 1003,
+      "sha256": "0f20d24cdb94d9f8599cfe9c8e9d141ebdca04a4296664783483d194be734c5c"
+    },
+    {
+      "path": "assistive_dictation/stranger/session-01.jsonl",
+      "style": "assistive_dictation",
+      "persona": "stranger",
+      "session": 1,
+      "split": "test",
+      "label": "impostor_stranger",
+      "events": 836,
+      "sha256": "ae57ddec8ba9e1d8a1b3dc36212c1fb7b7d4b15343d84b101a6a273aa381cc71"
+    },
+    {
+      "path": "assistive_dictation/stranger/session-02.jsonl",
+      "style": "assistive_dictation",
+      "persona": "stranger",
+      "session": 2,
+      "split": "test",
+      "label": "impostor_stranger",
+      "events": 795,
+      "sha256": "cff0f3592d9757b6902e91beb70743eaa1008d56d75b37bc8e955c189eaea3f5"
+    },
+    {
+      "path": "assistive_dictation/stranger/session-03.jsonl",
+      "style": "assistive_dictation",
+      "persona": "stranger",
+      "session": 3,
+      "split": "test",
+      "label": "impostor_stranger",
+      "events": 892,
+      "sha256": "b326c0791eb21f7d5b3a24aa57d7109ca203276daed20f55245ab1eb3533b910"
+    },
+    {
+      "path": "assistive_dictation/stranger/session-04.jsonl",
+      "style": "assistive_dictation",
+      "persona": "stranger",
+      "session": 4,
+      "split": "test",
+      "label": "impostor_stranger",
+      "events": 1075,
+      "sha256": "8ebd118ebc61834b1978b9f0df1934bdc0ec94e69464a99848fdae9f47fd8584"
+    },
+    {
+      "path": "assistive_dictation/stranger/session-05.jsonl",
+      "style": "assistive_dictation",
+      "persona": "stranger",
+      "session": 5,
+      "split": "test",
+      "label": "impostor_stranger",
+      "events": 892,
+      "sha256": "8842724066728f9bddcc8a0a1adca5cd549759c5f18f8fb5c4068d73632af2cd"
+    },
+    {
+      "path": "assistive_dictation/stranger/session-06.jsonl",
+      "style": "assistive_dictation",
+      "persona": "stranger",
+      "session": 6,
+      "split": "test",
+      "label": "impostor_stranger",
+      "events": 782,
+      "sha256": "5c367b1fc9d9a2206c2691fee7eb03a69f8620d43277dead089e2121911f393b"
+    },
+    {
+      "path": "assistive_dictation/stranger/session-07.jsonl",
+      "style": "assistive_dictation",
+      "persona": "stranger",
+      "session": 7,
+      "split": "test",
+      "label": "impostor_stranger",
+      "events": 966,
+      "sha256": "5b276732fc57001586160539c3c51bfc4acd08607a54b727442697dbca885b1e"
+    },
+    {
+      "path": "assistive_dictation/stranger/session-08.jsonl",
+      "style": "assistive_dictation",
+      "persona": "stranger",
+      "session": 8,
+      "split": "test",
+      "label": "impostor_stranger",
+      "events": 906,
+      "sha256": "9b076c5e384e76cbd6d7b0cd50c83c459c4f9d4972f9c58b083b03b59b4e43d5"
+    },
+    {
+      "path": "assistive_dictation/stranger/session-09.jsonl",
+      "style": "assistive_dictation",
+      "persona": "stranger",
+      "session": 9,
+      "split": "test",
+      "label": "impostor_stranger",
+      "events": 947,
+      "sha256": "ed0ec78a53dd7809aaf0380b6be3e667bafce111195eed2d017f8ab0f51c7e09"
+    },
+    {
+      "path": "assistive_dictation/mimic/session-00.jsonl",
+      "style": "assistive_dictation",
+      "persona": "mimic",
+      "session": 0,
+      "split": "test",
+      "label": "impostor_mimic",
+      "events": 973,
+      "sha256": "f47b04cc3855d6acc0384bd5a448c517df254b0b34cb0f28dec96e9dec629f29"
+    },
+    {
+      "path": "assistive_dictation/mimic/session-01.jsonl",
+      "style": "assistive_dictation",
+      "persona": "mimic",
+      "session": 1,
+      "split": "test",
+      "label": "impostor_mimic",
+      "events": 565,
+      "sha256": "e20c7815f58480047b946ed798ec252aef23aa53be0864cb2877fcd0c4de2a03"
+    },
+    {
+      "path": "assistive_dictation/mimic/session-02.jsonl",
+      "style": "assistive_dictation",
+      "persona": "mimic",
+      "session": 2,
+      "split": "test",
+      "label": "impostor_mimic",
+      "events": 907,
+      "sha256": "cd1a571fd487cba2f3ae0cd5bf0a54b502e8530f486ded728ef0cb481db44d99"
+    },
+    {
+      "path": "assistive_dictation/mimic/session-03.jsonl",
+      "style": "assistive_dictation",
+      "persona": "mimic",
+      "session": 3,
+      "split": "test",
+      "label": "impostor_mimic",
+      "events": 737,
+      "sha256": "feb3b5212f1105fc0241aa0956b7b3ce7480f606b052aa0c3afe879ebe3cd844"
+    },
+    {
+      "path": "assistive_dictation/mimic/session-04.jsonl",
+      "style": "assistive_dictation",
+      "persona": "mimic",
+      "session": 4,
+      "split": "test",
+      "label": "impostor_mimic",
+      "events": 894,
+      "sha256": "af79c5708f681aae63cac619bee41eb59ecef7c1ec938544e1bcdab1e7710613"
+    },
+    {
+      "path": "assistive_dictation/mimic/session-05.jsonl",
+      "style": "assistive_dictation",
+      "persona": "mimic",
+      "session": 5,
+      "split": "test",
+      "label": "impostor_mimic",
+      "events": 693,
+      "sha256": "a66784922e5f6a1b11e560a5fcfde909ce6505313027c1d2c4f0e9704931b80e"
+    },
+    {
+      "path": "assistive_dictation/mimic/session-06.jsonl",
+      "style": "assistive_dictation",
+      "persona": "mimic",
+      "session": 6,
+      "split": "test",
+      "label": "impostor_mimic",
+      "events": 831,
+      "sha256": "e20735e91f470836621673612fb7c8bd1317c26c3f2c513fae376430d1b4cffb"
+    },
+    {
+      "path": "assistive_dictation/mimic/session-07.jsonl",
+      "style": "assistive_dictation",
+      "persona": "mimic",
+      "session": 7,
+      "split": "test",
+      "label": "impostor_mimic",
+      "events": 1182,
+      "sha256": "88abaf86213077779424ad6ff5b340ef90d99ced9b4ecba0d95c0c26b199e255"
+    },
+    {
+      "path": "assistive_dictation/mimic/session-08.jsonl",
+      "style": "assistive_dictation",
+      "persona": "mimic",
+      "session": 8,
+      "split": "test",
+      "label": "impostor_mimic",
+      "events": 793,
+      "sha256": "72279767f15ab95856916c6eb9636f3b829c3f2bb557037ef3f71767fcbfa696"
+    },
+    {
+      "path": "assistive_dictation/mimic/session-09.jsonl",
+      "style": "assistive_dictation",
+      "persona": "mimic",
+      "session": 9,
+      "split": "test",
+      "label": "impostor_mimic",
+      "events": 846,
+      "sha256": "1d1c646b5df3f9effa68bd700eebb951921d13f8218c4abd927d39dabb50210a"
+    }
+  ]
+}
